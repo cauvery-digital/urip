@@ -80,7 +80,7 @@
 
 						<a href="#0" class="logo"><img src="images/logo.png" alt="Urip Logo"></a> <!-- Your Logo -->
 
-						<a href="#0" id="nav-menu-trigger" class="menu-toggle flip pull-right all-caps">Menu<span class="icon-menu5"></span></a> <!-- Menu Toggle -->
+						<a href="#0" id="nav-menu-trigger" class="menu-toggle flip pull-right all-caps"><span class="icon-menu5"></span></a> <!-- Menu Toggle -->
 
 					</div> <!--/ .col-lg-12 -->
 
@@ -187,11 +187,11 @@
 										<h4 class="all-caps margin-bot-15">Create Free Account</h4>
 
 										<p class="zero-bottom">
-											Create account in 30 seconds. No credit card required.<br>
+											Create account in 30 seconds. Fill Detail.<br>
 											Already have an account? <a href="https://netsurfnetwork.com/Recommend/rec/NIPA26304?Rec_For=HealthCare&e=Netsurf" target="_blank" class="more">Log in here.</a>
 										</p>
 
-										<form class="register-form margin-top-32 margin-bot-5" id="register-form" method="post">
+										<form class="register-form margin-top-32 margin-bot-5" id="register-form" name="Registration" method="post" action="thanks.html" data-netlify="true">
 											<div class="row">
 
 												<div class="col-lg-12 col-md-12">
@@ -226,11 +226,11 @@
 													</div> <!--/ .required-field -->
 												</div>
 												<div class="col-lg-6 col-md-6"><div class="required-field">
-													<input name="city" id="hero-lname" class="hero-input"  type="text" placeholder="City">
-												</div></div>
-												<div class="col-lg-6 col-md-6"><div class="required-field">
 													<input name="pincode" id="hero-lname" class="hero-input"  type="text" placeholder="Pincode">
 												</div></div>
+												<div class="col-lg-6 col-md-6">
+													<input name="city" id="hero-lname" class="hero-input"  type="text" value="Refrenceid">
+												</div>
 												<div class="col-lg-8 col-md-8"><div class="required-field">
 													<input name="heroPhone" id="hero-phone" class="hero-input"  type="text" placeholder="Phone Number">
 												</div></div>
